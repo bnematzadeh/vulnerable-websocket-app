@@ -8,7 +8,7 @@ A vulnerable WebSocket application written in NodeJS and Socket.io
 git clone https://github.com/bnematzadeh/vulnerable-websocket-app.git
 cd vulnerable-websocket-app/
 npm install
-nodemon server.js
+node server.js
 ```
 
 # Vulnerabilities
