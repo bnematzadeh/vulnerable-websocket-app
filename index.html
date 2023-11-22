@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vulnerable WebSocket App</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script defer src="http://localhost:3000/socket.io/socket.io.js"></script>
+    <script defer src="client.js"></script>
+</head>
+<body>
+  <span id="message-container">
+    <h2 class="text-center" style="margin-top: 1.5%;">Vulnerable WebSocket Application</h2>
+  </span>
+  <form id="send-container" class="d-flex justify-content-center">
+    <div class="input-group mb-3" style="display: flex">
+      <input type="text" class="form-control" placeholder="Message" id="message-input">
+      <div class="input-group-append">
+        <button class="btn btn-outline-secondary" id="send-button" type="button">Send</button>
+      </div>
+    </div>
+    <div class="input-group mb-3" style="display: flex; ">
+      <input type="text" class="form-control" placeholder="RoomID or PersonID" placeholder="Room ID" id="room-input">
+      <div class="input-group-append">
+        <button class="btn btn-outline-secondary" id="room-button" type="button">Join Room/Send Private Message</button>
+      </div>
+    </div>
+  </form>
+
+</body>
+</html>

@@ -1,0 +1,13 @@
+#send-container {
+    position: fixed;
+    padding-bottom: 30px;
+    bottom: 0;
+    display: flex;
+  }
+
+  body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
