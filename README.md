@@ -1,6 +1,7 @@
 # Vulnerable WebSocket Application
 
 A vulnerable WebSocket application written in NodeJS and Socket.io
+
 ![Logo](https://github.com/bnematzadeh/vulnerable-websocket-app/blob/main/logo.png)
 
 # How to install
